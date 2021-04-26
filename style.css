@@ -1,0 +1,77 @@
+p{
+    font-size: 25px;
+}
+.parallax {
+    
+    background-image: url("img_parallax.jpg");
+  
+    
+    min-height: 200px; 
+  
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body{
+      background-color: #6decb9;
+  }
+#hi{
+    text-align: center;
+    margin-top: 3%;
+    
+}
+#ab{
+    
+    margin-top: 50px;
+}
+*{
+    /*font-family: 'Source Code Pro', monospace;*/
+    font-family: 'Press Start 2P', cursive;
+}
+#mot{
+    font-family: 'Libre Barcode 39', cursive;
+    margin-top: 50px;
+}
+#pic{
+    margin-top: 50px;
+}
+	
+
+.nav-link {
+	margin: 0 5px;
+}
+.nav-link img {
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	margin: -8px 0;
+	float: left;
+	margin-right: 10px;
+}
+#web{
+    font-size: 15px;
+    margin-top: 30px;
+}
+#ani{
+   
+    animation: mymove 5s infinite;
+  }
+#anii{
+    
+    animation: mymove2 5s infinite;
+}
+  @keyframes mymove {
+    0%   {color:#ffc649;}
+    25%  {color:#ed0043;}
+    50%  {color:#4e54c9;}
+    75%  {color:#7ea1a9;}
+    100% {color:#2c7873;}
+  }@keyframes mymove2 {
+    0%   {color:#ffc649;font-size: larger;}
+    25%  {color:#eb8242;font-size: smaller;}
+    50%  {color:#4e54c9;font-size: larger;}
+    75%  {color:#7ea1a9;font-size: smaller;}
+    100% {color:#2c7873;font-size: larger; }
+  }
